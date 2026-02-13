@@ -8,13 +8,13 @@ export default function Navbar() {
             <div className="px-4 py-3 flex justify-between items-center">
                 <div className="flex items-center space-x-8">
                     <div className="flex space-x-12">
-                        <a href="#home" className="hover:text-red-500 transition">Home</a>
-                        <a href="#about" className="hover:text-red-500 transition">About</a>
-                        <a href="#research" className="hover:text-red-500 transition">Research</a>
-                        <a href="#conferences" className="hover:text-red-500 transition">Conferences</a>
-                        <a href="#teaching" className="hover:text-red-500 transition">Teaching</a>
-                        <a href="#education" className="hover:text-red-500 transition">Education</a>
-                        <a href="#contact" className="hover:text-red-500 transition">Contact</a>
+                        <a href="#home" className="hover:text-red-500 transition">HOME</a>
+                        <a href="#about" className="hover:text-red-500 transition">ABOUT</a>
+                        <a href="#research" className="hover:text-red-500 transition">RESEARCH</a>
+                        <a href="#conferences" className="hover:text-red-500 transition">CONFERENCES</a>
+                        <a href="#teaching" className="hover:text-red-500 transition">TEACHING</a>
+                        <a href="#education" className="hover:text-red-500 transition">EDUCATION</a>
+                        <a href="#contact" className="hover:text-red-500 transition">CONTACT</a>
                     </div>
                 </div>
                 <div className="flex space-x-4">
