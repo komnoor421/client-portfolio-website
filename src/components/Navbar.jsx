@@ -4,13 +4,17 @@ import { FaGoogleScholar } from "react-icons/fa6";
 
 export default function Navbar() {
     return (
-        <nav className="font-poppins text-sm bg-white sticky top-0 z-50 border-b-1 border-gray-300 tracking-widest">
+        <nav className="font-poppins text-xs bg-white sticky top-0 z-50 border-b-1 border-gray-300 tracking-widest">
             <div className="px-4 py-3 flex justify-between items-center">
                 <div className="flex items-center space-x-8">
                     <div className="flex space-x-12">
                         <a href="#home" className="hover:text-red-500 transition">Home</a>
+                        <a href="#about" className="hover:text-red-500 transition">About</a>
                         <a href="#research" className="hover:text-red-500 transition">Research</a>
-                        <a href="#talks" className="hover:text-red-500 transition">Conferences/Talks</a>
+                        <a href="#conferences" className="hover:text-red-500 transition">Conferences</a>
+                        <a href="#teaching" className="hover:text-red-500 transition">Teaching</a>
+                        <a href="#education" className="hover:text-red-500 transition">Education</a>
+                        <a href="#contact" className="hover:text-red-500 transition">Contact</a>
                     </div>
                 </div>
                 <div className="flex space-x-4">
